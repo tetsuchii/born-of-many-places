@@ -1369,8 +1369,10 @@
               image: "assets/spegetti.png",
               heritage: "italian",
             },
+            { id: "porkolt", image: "assets/porkolt.png", heritage: "hungarian" },
 
             { id: "vineta", image: "assets/vineta.png", heritage: "szekely" },
+            { id: "gozgomboc", image: "assets/gozgomboc.png", heritage: "svab" },
             {
               id: "pelmeni",
               image: "assets/pelmeni.png",
@@ -1512,7 +1514,7 @@
 
           // LOCKED STATE
           if (index >= unlockedLevels) {
-            thumb.style.filter = "grayscale(100%) brightness(60%)";
+            thumb.style.filter = "grayscale(60%) brightness(60%)";
             thumb.style.cursor = "not-allowed";
             thumb.style.opacity = "0.5";
             thumb.classList.add("locked");
